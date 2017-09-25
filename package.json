@@ -1,0 +1,30 @@
+{
+  "name": "ws-to-tcp",
+  "version": "0.0.0",
+  "description": "Proxy from WebSockets to TCP",
+  "main": "index.js",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "pump": "^1.0.2",
+    "websocket-stream": "^5.0.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "bin": {
+    "ws-to-tcp": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/ws-to-tcp.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/ws-to-tcp/issues"
+  },
+  "homepage": "https://github.com/mafintosh/ws-to-tcp"
+}
